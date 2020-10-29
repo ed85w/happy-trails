@@ -19,7 +19,8 @@ export default {
 
 <style>
 .test {
-  /* border: 2px solid red; */
+  border: 2px solid red;
+  /* height: 200px; */
 }
 
 html {
@@ -39,5 +40,9 @@ html {
   box-sizing: border-box;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+}
+
+.reenie-beenie {
+  font-family: 'Caveat', cursive;
 }
 </style>
