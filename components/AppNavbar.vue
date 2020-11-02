@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="container-fluid nav-container p-0">
+    <nav class="container-fluid nav-container">
       <div class="row">
         <div class="nav-logo col-12 col-md-3">
           <NuxtLink to="/">
@@ -51,13 +51,15 @@ export default {
 
     position: absolute;
     top: -100%;
-    height: 100vh;
+    height: 0;
+    // min-height: 510px;
     z-index: 500;
     background: $site-grey;
     transition: .3s ease-out;
 
     &.menuActive {
         top: 0;
+        height: 100vh;
     }
 
     ul {
@@ -122,7 +124,7 @@ export default {
 @media (min-width: 768px) {
 
 .nav-container {
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
 }
 
 .nav-logo-img {
@@ -131,9 +133,11 @@ export default {
 
 .nav-links {
   position: relative;
+  top: 0;
   height: auto;
   background: white;
   transition: 0s;
+  min-height: 30px;
 
   ul {
     position: absolute;

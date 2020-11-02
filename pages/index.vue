@@ -1,16 +1,16 @@
 <template>
   <div>
-    <section class="container-fluid landing">
+    <section class="container-fluid landing-section">
       <div class="row">
         <div class="col-12 p-0 welcome-text-div">
-          <h1 class="m-0 welcome-text reenie-beenie">
+          <h1 class="m-0 welcome-text font-cursive">
             Welcome to
           </h1>
           <div class="welcome-inner">
-            <h4 class="mb-0 reenie-beenie">
+            <h2 class="mb-0 pt-1 font-cursive">
               Happy Trails Pet Services
-            </h4>
-            <p class="pb-2">
+            </h2>
+            <p class="pb-3">
               Dog Walking & Pet Sitting for your Furry Friends
             </p>
           </div>
@@ -20,18 +20,20 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid about">
+    <section class="container-fluid about-section" id="about">
       <div class="row">
         <div class="col-12 col-md-6 order-md-2">
           <div class="polaroid">
             <img src="~static/img/happy-trails-zoe.jpeg">
-            <div class="caption reenie-beenie">
+            <div class="caption font-cursive">
               Hi, I'm Zoe, your fairy dog mother!
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 order-md-1">
-          <h1>About me</h1>
+        <div class="col-12 col-md-6 order-md-1 about-me-div">
+          <h1 class="font-cursive">
+            About me
+          </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi consequatur harum, eius at qui ducimus accusantium numquam soluta sunt veritatis ab ut exercitationem amet. Aliquid architecto dignissimos mollitia temporibus nesciunt.Dolorem officiis, natus a culpa illum sunt laborum ab atque, rem necessitatibus quas? Totam aperiam illum laborum sit non voluptas perferendis assumenda, natus aliquid minima praesentium? Tenetur sint soluta numquam?
           </p>
@@ -47,7 +49,7 @@ export default {}
 
 <style lang="scss">
 
-.landing {
+.landing-section {
 
   .row {
     height: 90vh;
@@ -64,14 +66,20 @@ export default {}
 
       .welcome-text {
         font-size: 4rem;
+        font-weight: bold;
         line-height: 0.7;
+        text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
       }
 
       .welcome-inner {
         background: $site-blue;
 
         p {
-          font-size: 0.7rem;
+          font-size: 0.8rem;
         }
 
       }
@@ -87,7 +95,9 @@ export default {}
 
 }
 
-.about {
+.about-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: $site-blue;
 
   .polaroid {
@@ -110,6 +120,10 @@ export default {}
     line-height: 2em;
   }
 
+  .about-me-div {
+    color: white;
+  }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -120,16 +134,35 @@ export default {}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 
-.landing {
+.landing-section {
 
   .row {
     background-position: 20% 15%;
 
     .welcome-text-div {
       top: 65%;
+
+      .welcome-text {
+        font-size: 7rem;
+      }
+
+      .welcome-inner {
+
+        p {
+          font-size: 1.2rem;
+        }
+
+      }
+
     }
+
   }
 
+}
+
+.about-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 }

@@ -2,16 +2,19 @@
   <div>
     <AppNavbar />
     <Nuxt />
+    <AppFooter />
   </div>
 </template>
 
 <script>
 
 import AppNavbar from '../components/AppNavbar'
+import AppFooter from '../components/AppFooter'
 
 export default {
   components: {
-    AppNavbar
+    AppNavbar,
+    AppFooter
   }
 
 }
@@ -42,7 +45,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.reenie-beenie {
+.font-cursive {
   font-family: 'Caveat', cursive;
 }
 </style>
