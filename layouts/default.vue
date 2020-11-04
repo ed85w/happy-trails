@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .test {
   border: 2px solid red;
   /* height: 200px; */
@@ -48,4 +48,10 @@ html {
 .font-cursive {
   font-family: 'Caveat', cursive;
 }
+
+.btn-primary {
+  background: $site-blue;
+  border: 2px solid white;
+}
+
 </style>

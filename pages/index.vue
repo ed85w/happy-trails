@@ -20,7 +20,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid about-section" id="about">
+    <section id="about" class="container-fluid about-section">
       <div class="row">
         <div class="col-12 col-md-6 order-md-2">
           <div class="polaroid">
@@ -30,12 +30,21 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 order-md-1 about-me-div">
+        <div class="col-12 col-md-6 order-md-1 pl-2 about-me-div">
           <h1 class="font-cursive">
             About me
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi consequatur harum, eius at qui ducimus accusantium numquam soluta sunt veritatis ab ut exercitationem amet. Aliquid architecto dignissimos mollitia temporibus nesciunt.Dolorem officiis, natus a culpa illum sunt laborum ab atque, rem necessitatibus quas? Totam aperiam illum laborum sit non voluptas perferendis assumenda, natus aliquid minima praesentium? Tenetur sint soluta numquam?
+            First of all I would love to introduce myself, my name is Zoe and I am qualified in home pet sitting, dog walking and first aid training. I have adored and have been around pets my entire life.
+          </p>
+          <p>
+            I am so passionate about them and have spent so much time looking after my friends and family's pets and a dog of my own called Harvey.
+          </p>
+          <p>
+            I love walking and meeting new people and I would love you all to have a look at the services I offer and if you have any questions please don't hesitate to contact me.
+          </p>
+          <p>
+            I am more than happy to help each and every one of you. My goal is to care and love your pets as much as you do and take them on fun adventures day in day out.
           </p>
         </div>
       </div>
@@ -66,7 +75,7 @@ export default {}
 
       .welcome-text {
         font-size: 4rem;
-        font-weight: bold;
+        // font-weight: bold;
         line-height: 0.7;
         text-shadow:
    -1px -1px 0 #000,
@@ -84,11 +93,6 @@ export default {}
 
       }
 
-      .btn-primary {
-        background: $site-blue;
-        border: 2px solid white;
-      }
-
     }
 
   }
@@ -99,6 +103,10 @@ export default {}
   padding-top: 40px;
   padding-bottom: 40px;
   background: $site-blue;
+
+  h1 {
+    font-size: 4rem;
+  }
 
   .polaroid {
     max-width: 70%;

@@ -7,10 +7,18 @@
             <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1">
           </NuxtLink>
         </div>
-        <div class="nav-links col-12 col-md-9 test" :class="{ menuActive : showMobileMenu }">
-          <ul class="test">
-            <li>About</li>
-            <li>Services</li>
+        <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
+          <ul>
+            <li>
+              <NuxtLink to="/#about">
+                About
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="services">
+                Services
+              </NuxtLink>
+            </li>
             <li>Contact</li>
             <li>Gallery</li>
           </ul>
@@ -52,7 +60,6 @@ export default {
     position: absolute;
     top: -100%;
     height: 0;
-    // min-height: 510px;
     z-index: 500;
     background: $site-grey;
     transition: .3s ease-out;
@@ -70,7 +77,6 @@ export default {
         li {
             padding: 10px 0;
             color: $site-blue;
-            font-family: 'Caveat', cursive;
         }
 
     }
