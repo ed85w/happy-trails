@@ -19,8 +19,16 @@
                 Services
               </NuxtLink>
             </li>
-            <li>Contact</li>
-            <li>Gallery</li>
+            <li>
+              <NuxtLink to="contact">
+                Contact
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="gallery">
+                Gallery
+              </NuxtLink>
+            </li>
           </ul>
         </div>
       </div>
@@ -128,10 +136,6 @@ export default {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-.nav-container {
-  // padding-bottom: 10px;
-}
 
 .nav-logo-img {
   height: 110px;

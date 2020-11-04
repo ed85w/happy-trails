@@ -1,17 +1,21 @@
 <template>
   <div>
-    <section class="services">
+    <section class="services pb-3">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h1>Services</h1>
+          <div class="col-12 p-3 p-md-5 text-right">
+            <h1 class="font-cursive">
+              Services
+            </h1>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6">
-            <ul>
+            <ul class="pl-0">
               <li>
-                <h3>Dog Walking</h3>
+                <h3 class="font-cursive">
+                  Dog Walking
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -26,7 +30,9 @@
                 </table>
               </li>
               <li>
-                <h3>Dog Visits</h3>
+                <h3 class="font-cursive">
+                  Dog Visits
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -37,7 +43,9 @@
                 </table>
               </li>
               <li>
-                <h3>Dog Sitting in Owners Home Per Day</h3>
+                <h3 class="font-cursive">
+                  Dog Sitting in Owners Home Per Day
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -55,7 +63,9 @@
                 </table>
               </li>
               <li>
-                <h3>Dog Sitting per day and night</h3>
+                <h3 class="font-cursive">
+                  Dog Sitting per day and night
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -77,7 +87,9 @@
           <div class="col-12 col-md-6">
             <ul>
               <li>
-                <h3>Cat Home Visits</h3>
+                <h3 class="font-cursive">
+                  Cat Home Visits
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -92,7 +104,9 @@
                 </table>
               </li>
               <li>
-                <h3>Small Animal Home Visits</h3>
+                <h3 class="font-cursive">
+                  Small Animal Home Visits
+                </h3>
                 <table>
                   <tbody>
                     <tr>
@@ -118,34 +132,36 @@
     </section>
     <section class="faqs">
       <div class="container">
-        <div class="row">
-          <div class="col-12 test">
-            <h1>FAQs</h1>
+        <div class="row pb-3 pb-md-5">
+          <div class="col-12">
+            <h1 class="font-cursive p-3 p-md-5">
+              FAQs
+            </h1>
           </div>
-          <div class="col-12 col-md-6 test">
-            <p class="cursive">
+          <div class="col-12 col-md-6">
+            <h5 class="font-cursive">
               How many dogs do you walk at one time?
-            </p>
+            </h5>
             <p>
               Happy Trails Pet Services is happy to walk groups of 3 dogs in a local dog park. We have a secure field for up 5 dogs at a time. Your pet's safety and attention is paramount. We also offer solo walks for nervous dogs or if your dog is aggressive towards other dogs.
             </p>
-            <p class="cursive">
+            <h5 class="font-cursive">
               Can you do evening and weekend walks/care?
-            </p>
+            </h5>
             <p>
               Yes, this is something we can offer. This information is located in our services price list. We also offer full or half day pet sitting.
             </p>
           </div>
-          <div class="col-12 col-md-6 test">
-            <p class="cursive">
+          <div class="col-12 col-md-6">
+            <h5 class="font-cursive">
               Are you insured?
-            </p>
+            </h5>
             <p>
               Abolutely! We have public liaibility insurance for dog sitting, grooming and walking which I show at all consultations.
             </p>
-            <p class="cursive">
+            <h5 class="font-cursive">
               Which areas do you cover?
-            </p>
+            </h5>
             <p>
               Happy Trails Pet Services is located in Linton on Ouse. We cover the following areas: Easingwold, Raskelf, Tollerton, Huby, Skelton, Alne, Linton on Ouse, Newton on Ouse, Tholthorpe, Sutton on the Forest and Stillington.
             </p>
@@ -167,6 +183,22 @@ export default {
 .services {
     background: $site-grey;
     border-bottom: 5px solid white;
+    color: white;
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        background: url(~static/img/white-paw.png);
+        fill: white;
+        background-size: 35px;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+        padding: 0 0 2rem 2.5rem;
+      }
+
+    }
 
     table {
         width: 100%;

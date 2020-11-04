@@ -22,6 +22,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'href="//db.onlinewebfonts.com/c/0801c08e5412f54e4b4e9ad146d83a12?family=Ink+Free"'
       }
     ]
   },

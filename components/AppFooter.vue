@@ -42,11 +42,11 @@ export default {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .container-fluid {
-        margin-top: -50px;
+      margin-top: -60px;
 
-    img {
-      max-height: 60px;
-    }
+      img {
+        max-height: 60px;
+      }
 
     }
 }

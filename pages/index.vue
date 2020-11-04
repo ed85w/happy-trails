@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 order-md-1 pl-2 about-me-div">
+        <div class="col-12 col-md-6 order-md-1 p-3 p-md-5 about-me-div">
           <h1 class="font-cursive">
             About me
           </h1>
@@ -75,20 +75,19 @@ export default {}
 
       .welcome-text {
         font-size: 4rem;
-        // font-weight: bold;
         line-height: 0.7;
         text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+          -1px -1px 0 #000,
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
       }
 
       .welcome-inner {
         background: $site-blue;
 
-        p {
-          font-size: 0.8rem;
+        h2 {
+          font-size: 1.6rem;
         }
 
       }
@@ -103,10 +102,6 @@ export default {}
   padding-top: 40px;
   padding-bottom: 40px;
   background: $site-blue;
-
-  h1 {
-    font-size: 4rem;
-  }
 
   .polaroid {
     max-width: 70%;
@@ -124,6 +119,7 @@ export default {}
 
   .caption {
     font-size: 1.2rem;
+    font-weight: bold;
     text-align: center;
     line-height: 2em;
   }

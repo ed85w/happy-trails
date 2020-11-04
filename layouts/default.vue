@@ -45,13 +45,46 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+p,
+td {
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 .font-cursive {
-  font-family: 'Caveat', cursive;
+  font-family: 'Ink Free', cursive;
 }
 
 .btn-primary {
   background: $site-blue;
   border: 2px solid white;
+}
+
+.btn-secondary {
+  background: $site-grey;
+  border: 2px solid white;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+h1 {
+  font-size: 4rem;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  p,
+  td {
+    font-size: 1rem;
+  }
+
+}
+
 }
 
 </style>
