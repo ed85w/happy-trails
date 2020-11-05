@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav class="container-fluid nav-container">
+    <nav class="container-fluid nav-container" :class="{ scrolled : scrolled }">
       <div class="row">
         <div class="nav-logo col-12 col-md-3">
           <NuxtLink to="/">
-            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1">
+            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1" :class="{ scrolled : scrolled }">
           </NuxtLink>
         </div>
         <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
@@ -42,11 +42,28 @@
 </template>
 
 <script>
+/* eslint-disable */ 
 export default {
   data () {
     return {
-      showMobileMenu: false
+      showMobileMenu: false,
+      scrolled: false
     }
+  },
+  methods: {
+    handleScroll () {
+      if(window.scrollY > 30) {
+        this.scrolled = true
+      } else {
+        this.scrolled = false
+      }
+    }
+  },
+  beforeMount () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 }
 </script>
@@ -54,23 +71,26 @@ export default {
 <style lang="scss">
 
 .nav-container {
-  padding-bottom: 5px;
+  position: fixed;
+  z-index: 499;
+  background: white;
   border-bottom: 5px solid $site-blue;
+  transition: 1s ease-in-out;
 }
 
 .nav-logo-img {
-    width: auto;
-    height: 80px;
+  width: auto;
+  height: 80px;
+  transition: 1s ease-in-out;
 }
 
 .nav-links {
-
     position: absolute;
-    top: -100%;
+    top: -100vh;
     height: 0;
     z-index: 500;
     background: $site-grey;
-    transition: .3s ease-out;
+    transition: .5s cubic-bezier(0.52, 0.16, 0.24, 1);
 
     &.menuActive {
         top: 0;
@@ -139,6 +159,11 @@ export default {
 
 .nav-logo-img {
   height: 110px;
+
+  &.scrolled {
+    height: 60px;
+  }
+
 }
 
 .nav-links {

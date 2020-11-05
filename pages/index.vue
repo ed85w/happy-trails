@@ -2,21 +2,25 @@
   <div>
     <section class="container-fluid landing-section">
       <div class="row">
-        <div class="col-12 p-0 welcome-text-div">
-          <h1 class="m-0 welcome-text font-cursive">
-            Welcome to
-          </h1>
-          <div class="welcome-inner">
-            <h2 class="mb-0 pt-1 font-cursive">
-              Happy Trails Pet Services
-            </h2>
-            <p class="pb-3">
-              Dog Walking & Pet Sitting for your Furry Friends
-            </p>
+        <div class="col-12 landing-main">
+          <div class="row">
+            <div class="col-12 p-0 welcome-text-div">
+              <h1 class="m-0 welcome-text font-cursive">
+                Welcome to
+              </h1>
+              <div class="welcome-inner">
+                <h2 class="mb-0 pt-1 font-cursive">
+                  Happy Trails Pet Services
+                </h2>
+                <p class="pb-3">
+                  Dog Walking & Pet Sitting for your Furry Friends
+                </p>
+              </div>
+              <button class="btn btn btn-primary mt-3">
+                Contact Me
+              </button>
+            </div>
           </div>
-          <button class="btn btn btn-primary mt-3">
-            Contact Me
-          </button>
         </div>
       </div>
     </section>
@@ -61,17 +65,22 @@ export default {}
 .landing-section {
 
   .row {
-    height: 90vh;
-    background: url("~static/img/happy-trails-pet-services.png");
-    background-position: center;
-    background-size: cover;
-    border-bottom: 5px solid white;
-    color: white;
-    text-align: center;
+
+    .col-12.landing-main {
+      position: relative;
+      margin-top: 82px;
+      height: 90vh;
+      background: url("~static/img/happy-trails-pet-services.png");
+      background-position: center;
+      background-size: cover;
+      border-bottom: 5px solid white;
+      color: white;
+      text-align: center;
+    }
 
     .welcome-text-div {
       position: absolute;
-      top: 70%;
+      top: 55%;
 
       .welcome-text {
         font-size: 4rem;
@@ -141,6 +150,7 @@ export default {}
 .landing-section {
 
   .row {
+    top: 120px;
     background-position: 20% 15%;
 
     .welcome-text-div {

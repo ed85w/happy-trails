@@ -157,7 +157,7 @@
               Are you insured?
             </h5>
             <p>
-              Abolutely! We have public liaibility insurance for dog sitting, grooming and walking which I show at all consultations.
+              Abolutely! We have public liaibility insurance for dog sitting, grooming and walking.
             </p>
             <h5 class="font-cursive">
               Which areas do you cover?
