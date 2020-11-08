@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="services pb-3">
+    <section class="services pb-3 pb-md-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 p-3 p-md-5 text-right">
+          <div class="col-12 p-3 p-md-5 text-right services-main">
             <h1 class="font-cursive">
               Services
             </h1>
@@ -120,7 +120,7 @@
             <p>
               Happy Trails Pet Services offers a wide range of pet care including dog walking and pet sitting for dogs, cats and small animals such as hamsters, guinea pigs and rabbits.
             </p>
-            <p>
+            <p class="pb-3">
               We tailor the care of your pet to your needs. A free in home consultation will take place prior to your service so you can meet us and we can meet you! How exciting, why not get in contact to see how we can help you and your furry friends?
             </p>
             <button class="btn btn-primary">
@@ -182,8 +182,17 @@ export default {
 
 .services {
     background: $site-grey;
+    background-image: url('~static/img/grey-paw.png');
+    background-position: 135% 105%;
+    background-repeat: no-repeat;
+    background-size: 80%;
     border-bottom: 5px solid white;
     color: white;
+    overflow: hidden;
+
+    .services-main {
+      margin-top: 82px;
+    }
 
     ul {
       list-style-type: none;
@@ -209,11 +218,40 @@ export default {
             }
         }
     }
+
 }
 
 .faqs {
     background: $site-blue;
     padding-bottom: 50px;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .services {
+    background-position: 110% 110%;
+    background-size: 40%;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .services {
+    background-position: 110% 120%;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .services {
+    background-position: 110% 130%;;
+  }
+
 }
 
 </style>

@@ -9,22 +9,22 @@
         </div>
         <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
           <ul>
-            <li>
+            <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
               <NuxtLink to="/#about">
                 About
               </NuxtLink>
             </li>
-            <li>
+            <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
               <NuxtLink to="services">
                 Services
               </NuxtLink>
             </li>
-            <li>
+            <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
               <NuxtLink to="contact">
                 Contact
               </NuxtLink>
             </li>
-            <li>
+            <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
               <NuxtLink to="gallery">
                 Gallery
               </NuxtLink>
@@ -104,7 +104,10 @@ export default {
 
         li {
             padding: 10px 0;
-            color: $site-blue;
+
+            a {
+              color: $site-blue;
+            }
         }
 
     }
@@ -161,7 +164,7 @@ export default {
   height: 110px;
 
   &.scrolled {
-    height: 60px;
+    height: 90px;
   }
 
 }
@@ -173,6 +176,10 @@ export default {
   background: white;
   transition: 0s;
   min-height: 30px;
+
+  &.menuActive {
+    height: auto;
+  }
 
   ul {
     position: absolute;

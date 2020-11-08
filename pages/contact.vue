@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="contact mt-5">
+    <section class="contact">
       <div class="container">
         <div class="row pb-3 pb-md-5">
-          <div class="col-12 text-right">
+          <div class="col-12 text-right contact-main">
             <h1 class="font-cursive get-in-touch pl-3 pr-3">
               Get in touch
             </h1>
@@ -53,6 +53,10 @@ export default {
 
 section.contact {
     background: $site-blue;
+
+    .contact-main {
+      margin-top: 95px;
+    }
 
     h1.get-in-touch {
         display: inline;

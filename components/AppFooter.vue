@@ -2,7 +2,7 @@
   <div class="container-fluid pl-0 pr-0">
     <img src="~static/img/footer-grass.png" alt="">
     <div class="col-12 text-center footer">
-      <h3 class="cursive">
+      <h3 class="font-cursive pt-3">
         Happy Trails Pet Services
       </h3>
       <h3>happytrailsservices@outlook.com</h3>
@@ -35,6 +35,7 @@ export default {
 
     .footer {
       background-color: $site-green;
+      color: white;
     }
 
 }

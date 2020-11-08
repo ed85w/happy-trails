@@ -9,7 +9,7 @@
                 Welcome to
               </h1>
               <div class="welcome-inner">
-                <h2 class="mb-0 pt-1 font-cursive">
+                <h2 class="mb-0 pt-2 font-cursive">
                   Happy Trails Pet Services
                 </h2>
                 <p class="pb-3">
@@ -70,7 +70,8 @@ export default {}
       position: relative;
       margin-top: 82px;
       height: 90vh;
-      background: url("~static/img/happy-trails-pet-services.png");
+      min-height: 560px;
+      background: url("~static/img/test.jpeg");
       background-position: center;
       background-size: cover;
       border-bottom: 5px solid white;
@@ -150,24 +151,26 @@ export default {}
 .landing-section {
 
   .row {
-    top: 120px;
-    background-position: 20% 15%;
 
-    .welcome-text-div {
-      top: 65%;
+    .col-12.landing-main {
+      margin-top: 95px;
+      background-position: 20% 15%;
 
-      .welcome-text {
-        font-size: 7rem;
-      }
+      .welcome-text-div {
+        top: 55%;
 
-      .welcome-inner {
-
-        p {
-          font-size: 1.2rem;
+        .welcome-text {
+          font-size: 7rem;
         }
 
-      }
+        .welcome-inner {
 
+          p {
+            font-size: 1.2rem;
+          }
+
+        }
+      }
     }
 
   }
