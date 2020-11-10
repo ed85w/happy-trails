@@ -10,10 +10,10 @@
           </div>
           <div class="col-12 col-md-8 offset-md-2">
             <ul class="socials pl-0">
-              <li><a href="#"><fa :icon="['far','envelope']" /><span class="pl-2 d-none d-md-inline">Email me: </span><p class="d-inline pl-2">happytrailsservices@outlook.com</p></a></li>
-              <li><a href="#"><fa :icon="['fas','phone-alt']" /><span class="pl-2 d-none d-md-inline">Phone me: </span><p class="d-inline pl-2"></p></a></li>
-              <li><a href="#"><fa :icon="['fab','facebook']" /><span class="pl-2 d-none d-md-inline">Like me on Facebook: </span><p class="d-inline pl-2">happytrailsservices</p></a></li>
-              <li><a href="#"><fa :icon="['fab','instagram']" /><span class="pl-2 d-none d-md-inline">Follow me on Instagram: </span><p class="d-inline pl-2">happytrailsservices</p></a></li>
+              <li><a href="mailto:happytrailsservices@outlook.com"><fa :icon="['far','envelope']" /><span class="pl-2 d-none d-md-inline">Email me: </span><h5 class="d-inline pl-2">happytrailsservices@outlook.com</h5></a></li>
+              <li><a href="tel:07753224909"><fa :icon="['fas','phone-alt']" /><span class="pl-2 d-none d-md-inline">Phone me: </span><h5 class="d-inline pl-2">07753 224909</h5></a></li>
+              <li><a href="https://www.facebook.com/Happy-Trails-Pet-Services-1655627351125018"><fa :icon="['fab','facebook']" /><span class="pl-2 d-none d-md-inline">Like me on Facebook: </span><h5 class="d-inline pl-2">happytrailsservices</h5></a></li>
+              <li><a href="https://www.instagram.com/happytrailspetservices"><fa :icon="['fab','instagram']" /><span class="pl-2 d-none d-md-inline">Follow me on Instagram: </span><h5 class="d-inline pl-2">happytrailsservices</h5></a></li>
             </ul>
           </div>
           <div class="col-12">
@@ -75,22 +75,29 @@ section.contact {
     ul.socials {
       list-style: none;
 
-      a {
-        color: white;
-        font-size: 1rem;
+      li {
 
-        &:hover {
-          text-decoration: none;
-          color: $site-grey;
+        padding-bottom: 1rem;
+
+        a {
+          color: white;
+          font-size: 2rem;
+
+          &:hover {
+            text-decoration: none;
+            color: $site-grey;
+          }
+
+          span {
+            font-family: 'Ink Free', cursive;
+          }
+
+          h5 {
+            font-size: 1.5rem;
+          }
+
         }
 
-        span {
-          font-family: 'Ink Free', cursive;
-        }
-
-        h4 {
-          font-size: 1.2rem;
-        }
       }
 
     }

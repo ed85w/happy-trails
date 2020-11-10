@@ -9,6 +9,11 @@
         </div>
         <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
           <ul>
+            <li class="d-md-none mt-4" :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
+              <NuxtLink to="/">
+                Home
+              </NuxtLink>
+            </li>
             <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
               <NuxtLink to="/#about">
                 About
@@ -107,7 +112,14 @@ export default {
             padding: 10px 0;
 
             a {
+              font-size: 2rem;
               color: $site-blue;
+
+              &:hover {
+                color: $site-grey;
+                text-decoration: none;
+              }
+              
             }
         }
 
@@ -161,55 +173,63 @@ export default {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.nav-logo-img {
-  height: 110px;
+  .nav-logo-img {
+    height: 110px;
 
-  &.scrolled {
-    height: 90px;
-  }
-
-}
-
-.nav-links {
-  position: relative;
-  top: 0;
-  height: auto;
-  background: white;
-  transition: 0s;
-  min-height: 30px;
-
-  &.menuActive {
-    height: auto;
-  }
-
-  ul {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-bottom: 0;
-    padding-right: 2rem;
-    padding-bottom: 0;
-
-    li {
-      display: inline-block;
-      font-size: 1.5rem;
-      padding: 5px 20px;
-      margin: 0 1rem;
-      border-radius: 10px;
-
-      &:hover {
-        background: $site-blue;
-        color: white;
-      }
-
+    &.scrolled {
+      height: 90px;
     }
 
   }
+
+  .nav-links {
+    position: relative;
+    top: 0;
+    height: auto;
+    background: white;
+    transition: 0s;
+    min-height: 30px;
+
+    &.menuActive {
+      height: auto;
+    }
+
+    ul {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      margin-bottom: 0;
+      padding-right: 2rem;
+      padding-bottom: 0;
+
+      li {
+        display: inline-block;
+        font-size: 1.5rem;
+        padding: 5px 20px;
+        margin: 0;
+        border-radius: 10px;
+
+        a {
+          font-size: 1.5rem;
+        }
+
+      }
+
+    }
+  }
+
+  .nav-button {
+    display: none;
+  }
+
 }
 
-.nav-button {
-  display: none;
-}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .nav-links ul li {
+    margin: 0 1rem;
+  }
 
 }
 
