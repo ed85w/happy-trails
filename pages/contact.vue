@@ -8,15 +8,15 @@
               Get in touch
             </h1>
           </div>
-          <div class="col-12 col-md-8 offset-md-2">
+          <div class="col-12 col-lg-10 offset-lg-2 pt-3 pb-3 pt-md-5 pb-md-5">
             <ul class="socials pl-0">
               <li><a href="mailto:happytrailsservices@outlook.com"><fa :icon="['far','envelope']" /><span class="pl-2 d-none d-md-inline">Email me: </span><h5 class="d-inline pl-2">happytrailsservices@outlook.com</h5></a></li>
               <li><a href="tel:07753224909"><fa :icon="['fas','phone-alt']" /><span class="pl-2 d-none d-md-inline">Phone me: </span><h5 class="d-inline pl-2">07753 224909</h5></a></li>
-              <li><a href="https://www.facebook.com/Happy-Trails-Pet-Services-1655627351125018"><fa :icon="['fab','facebook']" /><span class="pl-2 d-none d-md-inline">Like me on Facebook: </span><h5 class="d-inline pl-2">happytrailsservices</h5></a></li>
-              <li><a href="https://www.instagram.com/happytrailspetservices"><fa :icon="['fab','instagram']" /><span class="pl-2 d-none d-md-inline">Follow me on Instagram: </span><h5 class="d-inline pl-2">happytrailsservices</h5></a></li>
+              <li><a href="https://www.facebook.com/Happy-Trails-Pet-Services-1655627351125018"><fa :icon="['fab','facebook']" /><span class="pl-2 d-none d-md-inline">Like me on Facebook: </span><h5 class="d-inline pl-2">Happy Trails Pet Services</h5></a></li>
+              <li><a href="https://www.instagram.com/happytrailspetservices"><fa :icon="['fab','instagram']" /><span class="pl-2 d-none d-md-inline">Follow me on Instagram: </span><h5 class="d-inline pl-2">happytrailspetservices</h5></a></li>
             </ul>
           </div>
-          <div class="col-12">
+          <div class="col-12 pb-5">
             <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">
               <div class="form-row">
                 <div class="form-group col-12 col-md-6">
@@ -39,7 +39,7 @@
                   <textarea id="message" class="form-control" name="message" required />
                 </div>
 
-                <button type="btn" class="btn btn-secondary">
+                <button type="btn" class="btn btn-secondary ml-1">
                   Send
                 </button>
               </div>
@@ -77,6 +77,7 @@ section.contact {
 
       li {
 
+        position: relative;
         padding-bottom: 1rem;
 
         a {
@@ -93,7 +94,9 @@ section.contact {
           }
 
           h5 {
-            font-size: 1.5rem;
+            position: absolute;
+            top: 25%;
+            font-size: 0.9rem;
           }
 
         }
@@ -103,7 +106,9 @@ section.contact {
     }
 
     label {
-        font-family: "Ink Free", cursive;
+      font-size: 1.5rem;
+      font-family: "Ink Free", cursive;
+      color: white;
     }
 }
 
@@ -112,6 +117,11 @@ section.contact {
 
   section.contact {
     margin-top: 120px;
+
+    ul.socials li a h5 {
+      position: static;
+      font-size: 1.5rem;
+    }
   }
 
 }

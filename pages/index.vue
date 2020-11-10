@@ -71,7 +71,7 @@ export default {}
       margin-top: 82px;
       height: 90vh;
       min-height: 560px;
-      background: url("~static/img/test.jpeg");
+      background: url("~static/img/happy-trails.jpeg");
       background-position: center;
       background-size: cover;
       border-bottom: 5px solid white;

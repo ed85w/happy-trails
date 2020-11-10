@@ -33,6 +33,7 @@ export default {
       width: 114%;
         max-height: 22px;
         position: relative;
+        top: 1px;
         left: -6%;
         background-color: transparent;
     }
@@ -69,7 +70,7 @@ export default {
       margin-top: -60px;
 
       img {
-        max-height: 60px;
+        max-height: 30px;
       }
 
       ul.footer-socials li a {
@@ -77,6 +78,15 @@ export default {
       }
 
     }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .container-fluid img {
+    max-height: 50px;
+  }
+
 }
 
 </style>
