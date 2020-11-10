@@ -16,9 +16,9 @@
                   Dog Walking & Pet Sitting for your Furry Friends
                 </p>
               </div>
-              <button class="btn btn btn-primary mt-3">
+              <nuxt-link to="/contact" class="btn btn btn-primary mt-3">
                 Contact Me
-              </button>
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -28,7 +28,7 @@
       <div class="row">
         <div class="col-12 col-md-6 order-md-2">
           <div class="polaroid">
-            <img src="~static/img/happy-trails-zoe.jpeg">
+            <img src="~static/img/happy-trails-zoe.jpeg" alt="happy trails pet services with a furry friend!">
             <div class="caption font-cursive">
               Hi, I'm Zoe, your fairy dog mother!
             </div>

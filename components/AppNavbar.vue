@@ -72,6 +72,7 @@ export default {
 
 .nav-container {
   position: fixed;
+  top:0;
   z-index: 499;
   background: white;
   border-bottom: 5px solid $site-blue;

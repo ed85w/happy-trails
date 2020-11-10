@@ -2,7 +2,7 @@
   <section class="gallery">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 gallery-holder">
+        <div class="col-12 col-md-6 gallery-top-row">
           <div class="polaroid polaroid1">
             <img src="~static/img/dog-1.jpeg" alt="zoe from happy trails pet services with mylo the dog">
             <div class="caption font-cursive">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 gallery-top-row">
           <div class="polaroid polaroid2">
             <img src="~static/img/dog-2.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -83,8 +83,13 @@ export default {
 
 .gallery {
 
-  .gallery-holder {
-    margin-top: 100px;
+    margin-top: 80px;
+    background-image: url('~static/img/grey-paw.png');
+    background-position: 50% 50%;
+    background-size: 80%;
+
+  .gallery-top-row {
+    margin-top: 0;
   }
 
   .polaroid {
@@ -99,7 +104,7 @@ export default {
 
     &:hover {
         transform: rotate(0);
-        transform: scale(1.2);
+        transform: scale(1.3);
         z-index: 50 !important;
     }
   }
@@ -149,6 +154,12 @@ export default {
 @media (min-width: 768px) {
 
 .gallery {
+
+  background-size: 25%;
+
+  .gallery-top-row {
+    margin-top: 90px;
+  }
 
   .polaroid {
 

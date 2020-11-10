@@ -21,6 +21,13 @@ export default {
 </script>
 
 <style lang="scss">
+
+@font-face {
+  font-family: 'Ink Free';
+  src: url('~static/fonts/Inkfree.woff') format('woff'), /* Pretty Modern Browsers */
+       url('~static/fonts/Inkfree.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 .test {
   border: 2px solid red;
   /* height: 200px; */
@@ -61,11 +68,22 @@ h1 {
 .btn-primary {
   background: $site-blue;
   border: 2px solid white;
+
+  &:hover {
+    background: $site-grey;
+    border: 2px solid white;
+  }
+
 }
 
 .btn-secondary {
   background: $site-grey;
   border: 2px solid white;
+
+  &:hover {
+    background: $site-blue;
+    border: 2px solid white;
+  }
 }
 
 // Medium devices (tablets, 768px and up)

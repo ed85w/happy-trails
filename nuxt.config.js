@@ -15,18 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'href="//db.onlinewebfonts.com/c/0801c08e5412f54e4b4e9ad146d83a12?family=Ink+Free"'
-      }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap' }
     ]
   },
 
@@ -45,7 +34,25 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    // font awesome icons
+    ['nuxt-fontawesome', {
+      component: 'fa', // customize component name
+      imports: [
+        {
+          set: '@fortawesome/free-brands-svg-icons',
+          icons: ['faInstagram', 'faFacebook']
+        },
+        {
+          set: '@fortawesome/free-regular-svg-icons',
+          icons: ['faEnvelope']
+        },
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['faPhoneAlt']
+        }
+      ]
+    }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

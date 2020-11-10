@@ -5,10 +5,10 @@
       <h3 class="font-cursive pt-3">
         Happy Trails Pet Services
       </h3>
-      <h3>happytrailsservices@outlook.com</h3>
-      <h3 class="mb-0 pb-3">
-        07753 224909
-      </h3>
+      <h5>happytrailsservices@outlook.com</h5>
+      <h5 class="mb-0 pb-3">
+        <a href="tel:07753224909">07753 224909</a>
+      </h5>
     </div>
   </div>
 </template>
