@@ -57,7 +57,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head () {
+    return {
+      title: 'Happy Trails Pet Services',
+      meta: [
+        {
+          hid: 'description', // id
+          name: 'description', // meta type
+          content: 'Happy Trails Pet Services offers dog walking and pet sitting services to Linton on Ouse and the surrounding areas' // meta content
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">

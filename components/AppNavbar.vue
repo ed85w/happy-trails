@@ -78,10 +78,10 @@ export default {
 .nav-container {
   position: fixed;
   top:0;
-  z-index: 499;
   background: white;
   border-bottom: 5px solid $site-blue;
   transition: 1s ease-in-out;
+  z-index: 499;
 }
 
 .nav-logo-img {
@@ -95,8 +95,9 @@ export default {
     top: -100vh;
     height: 0;
     z-index: 500;
-    background: $site-grey;
+    background: white;
     transition: .5s cubic-bezier(0.52, 0.16, 0.24, 1);
+    overflow: hidden;
 
     &.menuActive {
         top: 0;

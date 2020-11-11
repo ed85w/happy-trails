@@ -75,7 +75,18 @@
 
 <script>
 export default {
-
+  head () {
+    return {
+      title: 'Happy Trails Pet Services | Gallery',
+      meta: [
+        {
+          hid: 'description', // id
+          name: 'description', // meta type
+          content: 'Photos and testimonials from happy clients of Happy Trails Pet Services' // meta content
+        }
+      ]
+    }
+  }
 }
 </script>
 

@@ -174,7 +174,18 @@
 
 <script>
 export default {
-
+  head () {
+    return {
+      title: 'Happy Trails Pet Services | Services',
+      meta: [
+        {
+          hid: 'description', // id
+          name: 'description', // meta type
+          content: 'A list of the services offered by Happy Trails Pet Services - these include dog walking and pet sitting services to customers in Linton on Ouse and the surrounding areas' // meta content
+        }
+      ]
+    }
+  }
 }
 </script>
 
