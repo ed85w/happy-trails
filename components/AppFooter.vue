@@ -7,10 +7,10 @@
       </h3>
       <div class="col-12 text-center">
         <ul class="footer-socials pl-0">
-          <li><a href="mailto:happytrailsservices@outlook.com"><fa :icon="['far','envelope']" /></a></li>
+          <li><a href="mailto:happytrailsservices@outlook.com" target="_blank"><fa :icon="['far','envelope']" /></a></li>
           <li><a href="tel:07753224909"><fa :icon="['fas','phone-alt']" /></a></li>
-          <li><a href="https://www.facebook.com/Happy-Trails-Pet-Services-1655627351125018"><fa :icon="['fab','facebook']" /></a></li>
-          <li><a href="https://www.instagram.com/happytrailspetservices"><fa :icon="['fab','instagram']" /></a></li>
+          <li><a href="https://www.facebook.com/Happy-Trails-Pet-Services-1655627351125018" target="_blank"><fa :icon="['fab','facebook']" /></a></li>
+          <li><a href="https://www.instagram.com/happytrailspetservices" target="_blank"><fa :icon="['fab','instagram']" /></a></li>
         </ul>
       </div>
     </div>
@@ -31,11 +31,10 @@ export default {
 
     img {
       width: 114%;
-        max-height: 22px;
-        position: relative;
-        top: 1px;
-        left: -6%;
-        background-color: transparent;
+      position: relative;
+      top: 20px;
+      left: -6%;
+      background-color: transparent;
     }
 
     .footer {
@@ -70,7 +69,7 @@ export default {
       margin-top: -60px;
 
       img {
-        max-height: 30px;
+        // max-height: 30px;
       }
 
       ul.footer-socials li a {
@@ -84,7 +83,7 @@ export default {
 @media (min-width: 992px) {
 
   .container-fluid img {
-    max-height: 50px;
+    // max-height: 50px;
   }
 
 }

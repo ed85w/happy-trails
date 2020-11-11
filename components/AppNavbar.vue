@@ -4,7 +4,7 @@
       <div class="row">
         <div class="nav-logo col-12 col-md-3">
           <NuxtLink to="/">
-            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1" :class="{ scrolled : scrolled }">
+            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1 pl-4" :class="{ scrolled : scrolled }">
           </NuxtLink>
         </div>
         <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
@@ -25,13 +25,13 @@
               </NuxtLink>
             </li>
             <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
-              <NuxtLink to="contact">
-                Contact
+              <NuxtLink to="gallery">
+                Gallery
               </NuxtLink>
             </li>
             <li :class="{ toggle: showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
-              <NuxtLink to="gallery">
-                Gallery
+              <NuxtLink to="contact">
+                Contact
               </NuxtLink>
             </li>
           </ul>

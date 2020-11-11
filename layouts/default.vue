@@ -68,6 +68,7 @@ h1 {
 .btn-primary {
   background: $site-blue;
   border: 2px solid white;
+  font-family: 'Ink Free', cursive;
 
   &:hover {
     background: $site-grey;
@@ -79,6 +80,7 @@ h1 {
 .btn-secondary {
   background: $site-grey;
   border: 2px solid white;
+  font-family: 'Ink Free', cursive;
 
   &:hover {
     background: $site-blue;

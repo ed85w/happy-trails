@@ -50,10 +50,10 @@
           <div class="polaroid polaroid5">
             <img src="~static/img/dog-5.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
-              "Zoe looks after our dog and goes above and beyond taking care of her. She also pet sits our cats. I can't recommend her enough."
+              "Cannot recommend Happy Trails enough. Zoe is such a kind, caring lady. Will most definitely be using her services again."
             </div>
             <div class="testimonial">
-              Jordan, Lyla's owner
+              Michelle, Maverick's owner
             </div>
           </div>
         </div>
@@ -61,10 +61,10 @@
           <div class="polaroid polaroid6">
             <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
-              "Zoe looks after our dog and goes above and beyond taking care of her. She also pet sits our cats. I can't recommend her enough."
+              "As soon as Willow hears Zoe arrive she goes crazy!! She loves her walks with Zoe and other dog friends."
             </div>
             <div class="testimonial">
-              Jordan, Lyla's owner
+              Claire, Willow's owner
             </div>
           </div>
         </div>

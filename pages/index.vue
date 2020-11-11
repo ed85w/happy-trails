@@ -9,7 +9,7 @@
                 Welcome to
               </h1>
               <div class="welcome-inner">
-                <h2 class="mb-0 pt-2 font-cursive">
+                <h2 class="mb-0 pt-3 font-cursive">
                   Happy Trails Pet Services
                 </h2>
                 <p class="pb-3">
@@ -34,7 +34,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 order-md-1 p-3 p-md-5 about-me-div">
+        <div class="col-12 col-md-6 order-md-1 p-3 p-lg-5 about-me-div">
           <h1 class="font-cursive">
             About me
           </h1>
@@ -50,6 +50,9 @@
           <p>
             I am more than happy to help each and every one of you. My goal is to care and love your pets as much as you do and take them on fun adventures day in day out.
           </p>
+          <nuxt-link to="/contact" type="btn" class="btn btn-secondary ml-1">
+            Contact Me
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -99,11 +102,6 @@ export default {
       .welcome-text {
         font-size: 4rem;
         line-height: 0.7;
-        text-shadow:
-          -1px -1px 0 #000,
-          1px -1px 0 #000,
-          -1px 1px 0 #000,
-          1px 1px 0 #000;
       }
 
       .welcome-inner {
@@ -170,13 +168,17 @@ export default {
       background-position: 20% 15%;
 
       .welcome-text-div {
-        top: 55%;
+        top: 50%;
 
         .welcome-text {
           font-size: 7rem;
         }
 
         .welcome-inner {
+
+          h2 {
+            font-size: 2.5rem;
+          }
 
           p {
             font-size: 1.2rem;

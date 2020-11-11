@@ -8,7 +8,7 @@
               Get in touch
             </h1>
           </div>
-          <div class="col-12 col-lg-10 offset-lg-2 pt-3 pb-3 pt-md-5 pb-md-5">
+          <div class="col-12 pt-3 pb-3 pt-md-5 pb-md-5">
             <ul class="socials pl-0">
               <li><a href="mailto:happytrailsservices@outlook.com"><fa :icon="['far','envelope']" /><span class="pl-2 d-none d-md-inline">Email me: </span><h5 class="d-inline pl-2">happytrailsservices@outlook.com</h5></a></li>
               <li><a href="tel:07753224909"><fa :icon="['fas','phone-alt']" /><span class="pl-2 d-none d-md-inline">Phone me: </span><h5 class="d-inline pl-2">07753 224909</h5></a></li>
@@ -20,22 +20,22 @@
             <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">
               <div class="form-row">
                 <div class="form-group col-12 col-md-6">
-                  <label for="name">Name *</label>
+                  <label for="name">Name</label>
                   <input id="adult_name" type="text" class="form-control" name="adult_name" required>
                 </div>
 
                 <div class="form-group col-12 col-md-6">
                   <label for="phone">Phone Number</label>
-                  <input id="phone" type="text" class="form-control" name="phone">
+                  <input id="phone" type="text" class="form-control" name="phone" required>
                 </div>
 
                 <div class="form-group col-12">
                   <label for="email">Email address</label>
-                  <input id="email" type="email" class="form-control" name="email">
+                  <input id="email" type="email" class="form-control" name="email" required>
                 </div>
 
                 <div class="form-group col-12">
-                  <label for="message">Message *</label>
+                  <label for="message">Message</label>
                   <textarea id="message" class="form-control" name="message" required />
                 </div>
 
@@ -117,8 +117,9 @@ section.contact {
     }
 
     label {
-      font-size: 1.5rem;
       font-family: "Ink Free", cursive;
+      font-size: 1.5rem;
+      font-weight: bold;
       color: white;
     }
 }
