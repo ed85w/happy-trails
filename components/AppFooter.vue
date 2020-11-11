@@ -68,10 +68,6 @@ export default {
     .container-fluid {
       margin-top: -60px;
 
-      img {
-        // max-height: 30px;
-      }
-
       ul.footer-socials li a {
         padding: 1.8rem;
       }
@@ -81,10 +77,6 @@ export default {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
-  .container-fluid img {
-    // max-height: 50px;
-  }
 
 }
 
