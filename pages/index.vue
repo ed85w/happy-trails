@@ -26,7 +26,7 @@
     </section>
     <section id="about" class="container-fluid about-section">
       <div class="row">
-        <div class="col-12 col-md-6 order-md-2" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+        <div class="col-12 col-md-6 order-md-2 pt-md-5" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
           <div class="polaroid">
             <img src="~static/img/happy-trails-zoe.jpeg" alt="happy trails pet services with a furry friend!">
             <div class="caption font-cursive">
@@ -50,7 +50,7 @@
           <p>
             I am more than happy to help each and every one of you. My goal is to care and love your pets as much as you do and take them on fun adventures day in day out.
           </p>
-          <nuxt-link to="/contact" type="btn" class="btn btn-secondary ml-1 pl-5 pr-5">
+          <nuxt-link to="/contact" type="btn" class="btn btn-secondary pl-5 pr-5">
             Contact Me
           </nuxt-link>
         </div>
@@ -165,9 +165,11 @@ export default {
   .row {
 
     .col-12.landing-main {
-      background: url("~static/img/happy-trails-large.jpeg");
       margin-top: 95px;
-      background-position: 20% 15%;
+      background: url("~static/img/happy-trails-large.jpeg");
+      background-size: cover;
+      background-position: 50% 5%;
+      background-repeat: no-repeat;
 
       .welcome-text-div {
         top: 50%;
@@ -195,8 +197,11 @@ export default {
 }
 
 .about-section {
-  padding-top: 100px;
   padding-bottom: 9vw;
+
+  .polaroid {
+    max-width: 70%;
+  }
 }
 
 }
