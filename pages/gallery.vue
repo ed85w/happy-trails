@@ -95,7 +95,7 @@ export default {
 .gallery {
 
     margin-top: 80px;
-    padding: 30px 0 80px 0;
+    padding: 30px 0 15vw 0;
     background-image: url('~static/img/grey-paw.png');
     background-position: 50% 50%;
     background-size: 80%;
@@ -117,7 +117,7 @@ export default {
     &:hover {
         transform: rotate(0);
         transform: scale(1.3);
-        z-index: 99999 !important;
+        z-index: 10 !important;
     }
   }
 
@@ -167,7 +167,7 @@ export default {
 
 .gallery {
 
-  padding-bottom: 120px;
+  padding-bottom: 9vw;
   background-size: 25%;
 
   .gallery-top-row {

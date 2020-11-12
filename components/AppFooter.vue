@@ -26,13 +26,13 @@ export default {
 <style scoped lang="scss">
 
 .container-fluid {
-    margin-top: -22px;
+    margin-top: -40px;
     overflow: hidden;
 
     img {
       width: 114%;
       position: relative;
-      top: 20px;
+      top: 2px;
       left: -6%;
       background-color: transparent;
     }
@@ -66,7 +66,7 @@ export default {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .container-fluid {
-      margin-top: -60px;
+      margin-top: -7vw;
 
       ul.footer-socials li a {
         padding: 1.8rem;

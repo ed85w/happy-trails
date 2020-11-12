@@ -69,6 +69,7 @@ h1 {
   background: $site-blue;
   border: 2px solid white;
   font-family: 'Ink Free', cursive;
+  font-weight: bold;
 
   &:hover {
     background: $site-grey;
@@ -81,6 +82,7 @@ h1 {
   background: $site-grey;
   border: 2px solid white;
   font-family: 'Ink Free', cursive;
+  font-weight: bold;
 
   &:hover {
     background: $site-blue;

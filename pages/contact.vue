@@ -2,7 +2,7 @@
   <div>
     <section class="contact">
       <div class="container">
-        <div class="row pb-3 pb-md-5">
+        <div class="row">
           <div class="col-12 text-right contact-main pr-0">
             <h1 class="font-cursive get-in-touch pl-3 pr-3">
               Get in touch
@@ -16,7 +16,7 @@
               <li><a href="https://www.instagram.com/happytrailspetservices"><fa :icon="['fab','instagram']" /><span class="pl-2 d-none d-md-inline">Follow me on Instagram: </span><h5 class="d-inline pl-2">happytrailspetservices</h5></a></li>
             </ul>
           </div>
-          <div class="col-12 pb-5">
+          <div class="col-12">
             <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">
               <div class="form-row">
                 <div class="form-group col-12 col-md-6">
@@ -39,7 +39,7 @@
                   <textarea id="message" class="form-control" name="message" required />
                 </div>
 
-                <button type="btn" class="btn btn-secondary ml-1">
+                <button type="btn" class="btn btn-secondary mt-3 ml-1 pl-5 pr-5">
                   Send
                 </button>
               </div>
@@ -74,6 +74,7 @@ section.contact {
     background: $site-blue;
     border-top: 30px solid white;
     margin-top: 82px;
+    padding-bottom: 15vw;
 
     h1.get-in-touch {
         display: inline;
@@ -129,6 +130,7 @@ section.contact {
 
   section.contact {
     margin-top: 120px;
+    padding-bottom: 9vw;
 
     ul.socials li a h5 {
       position: static;

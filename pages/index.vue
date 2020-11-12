@@ -16,7 +16,7 @@
                   Dog Walking & Pet Sitting for your Furry Friends
                 </p>
               </div>
-              <nuxt-link to="/contact" class="btn btn btn-primary mt-3">
+              <nuxt-link to="/contact" class="btn btn btn-primary mt-3 pl-5 pr-5">
                 Contact Me
               </nuxt-link>
             </div>
@@ -26,8 +26,8 @@
     </section>
     <section id="about" class="container-fluid about-section">
       <div class="row">
-        <div class="col-12 col-md-6 order-md-2">
-          <div class="polaroid" data-aos="flip-up" data-aos-duration="1200" data-aos-offset="400">
+        <div class="col-12 col-md-6 order-md-2" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+          <div class="polaroid">
             <img src="~static/img/happy-trails-zoe.jpeg" alt="happy trails pet services with a furry friend!">
             <div class="caption font-cursive">
               Hi, I'm Zoe, your fairy dog mother!
@@ -50,7 +50,7 @@
           <p>
             I am more than happy to help each and every one of you. My goal is to care and love your pets as much as you do and take them on fun adventures day in day out.
           </p>
-          <nuxt-link to="/contact" type="btn" class="btn btn-secondary ml-1">
+          <nuxt-link to="/contact" type="btn" class="btn btn-secondary ml-1 pl-5 pr-5">
             Contact Me
           </nuxt-link>
         </div>
@@ -125,7 +125,7 @@ export default {
   background: $site-blue;
 
   .polaroid {
-    max-width: 70%;
+    max-width: 76%;
     margin: 2rem auto;
     padding: 0.8rem;
     background: #fff;
@@ -194,7 +194,7 @@ export default {
 
 .about-section {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 9vw;
 }
 
 }

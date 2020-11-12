@@ -123,7 +123,7 @@
             <p class="pb-3">
               We tailor the care of your pet to your needs. A free in home consultation will take place prior to your service so you can meet us and we can meet you! How exciting, why not get in contact to see how we can help you and your furry friends?
             </p>
-            <nuxt-link to="/contact" class="btn btn-primary">
+            <nuxt-link to="/contact" class="btn btn-primary pl-5 pr-5">
               Contact Me
             </nuxt-link>
           </div>
@@ -234,7 +234,7 @@ export default {
 
 .faqs {
     background: $site-blue;
-    padding-bottom: 50px;
+    padding-bottom: 7vw;
 }
 
 // Medium devices (tablets, 768px and up)

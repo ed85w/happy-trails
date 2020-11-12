@@ -4,7 +4,7 @@
       <div class="row">
         <div class="nav-logo col-12 col-md-3">
           <NuxtLink to="/">
-            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1 pl-4" :class="{ scrolled : scrolled }">
+            <img src="~static/img/happy-trails-logo.png" alt="" class="nav-logo-img p-1 pl-md-4" :class="{ scrolled : scrolled }">
           </NuxtLink>
         </div>
         <div class="nav-links col-12 col-md-9" :class="{ menuActive : showMobileMenu }">
@@ -81,7 +81,7 @@ export default {
   background: white;
   border-bottom: 5px solid $site-blue;
   transition: 1s ease-in-out;
-  z-index: 499;
+  z-index: 9999;
 }
 
 .nav-logo-img {
