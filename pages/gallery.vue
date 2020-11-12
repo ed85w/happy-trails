@@ -2,7 +2,7 @@
   <section class="gallery">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 gallery-top-row">
+        <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-left" data-aos-duration="1200">
           <div class="polaroid polaroid1">
             <img src="~static/img/dog-1.jpeg" alt="zoe from happy trails pet services with mylo the dog">
             <div class="caption font-cursive">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 gallery-top-row">
+        <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-right" data-aos-duration="1200">
           <div class="polaroid polaroid2">
             <img src="~static/img/dog-2.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -24,7 +24,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
           <div class="polaroid polaroid3">
             <img src="~static/img/dog-3.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
           <div class="polaroid polaroid4">
             <img src="~static/img/dog-4.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
           <div class="polaroid polaroid5">
             <img src="~static/img/dog-5.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -57,8 +57,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <div class="polaroid polaroid6">
+        <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
+          <div id="polaroid6" class="polaroid polaroid6">
             <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
               "As soon as Willow hears Zoe arrive she goes crazy!! She loves her walks with Zoe and other dog friends."
