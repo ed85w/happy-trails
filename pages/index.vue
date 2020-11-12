@@ -123,10 +123,11 @@ export default {
   padding-top: 40px;
   padding-bottom: 40px;
   background: $site-blue;
+  overflow: hidden;
 
   .polaroid {
     max-width: 76%;
-    margin: 2rem auto;
+    margin: auto auto;
     padding: 0.8rem;
     background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -164,6 +165,7 @@ export default {
   .row {
 
     .col-12.landing-main {
+      background: url("~static/img/happy-trails-large.jpeg");
       margin-top: 95px;
       background-position: 20% 15%;
 
