@@ -37,7 +37,7 @@
           </ul>
         </div>
       </div>
-      <button class="nav-button" :class="{ menuActive : showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
+      <button class="nav-button mr-2" :class="{ menuActive : showMobileMenu }" @click="showMobileMenu = !showMobileMenu">
         <div class="burger-line" />
         <div class="burger-line" />
         <div class="burger-line" />

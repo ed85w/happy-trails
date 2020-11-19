@@ -17,11 +17,11 @@
             </ul>
           </div>
           <div class="col-12">
-            <form method="POST" action="https://formspree.io/ed.walker@hotmail.co.uk">
+            <form method="POST" action="https://formspree.io/f/xleoleyl">
               <div class="form-row">
                 <div class="form-group col-12 col-md-6">
                   <label for="name">Name</label>
-                  <input id="adult_name" type="text" class="form-control" name="adult_name" required>
+                  <input id="name" type="text" class="form-control" name="name" required>
                 </div>
 
                 <div class="form-group col-12 col-md-6">
@@ -39,7 +39,7 @@
                   <textarea id="message" class="form-control" name="message" required />
                 </div>
 
-                <button type="btn" class="btn btn-secondary mt-3 ml-1 pl-5 pr-5">
+                <button type="btn" class="btn btn-secondary mt-3 ml-1 pl-5 pr-5" aria-label="submit form">
                   Send
                 </button>
               </div>

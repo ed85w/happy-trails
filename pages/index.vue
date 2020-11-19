@@ -16,7 +16,7 @@
                   Dog Walking & Pet Sitting for your Furry Friends
                 </p>
               </div>
-              <nuxt-link to="/contact" class="btn btn btn-primary mt-3 pl-5 pr-5">
+              <nuxt-link to="/contact" class="btn btn btn-primary mt-3 pl-5 pr-5" aria-label="contact page">
                 Contact Me
               </nuxt-link>
             </div>
@@ -50,7 +50,7 @@
           <p>
             I am more than happy to help each and every one of you. My goal is to care and love your pets as much as you do and take them on fun adventures day in day out.
           </p>
-          <nuxt-link to="/contact" type="btn" class="btn btn-secondary pl-5 pr-5">
+          <nuxt-link to="/contact" type="btn" class="btn btn-secondary pl-5 pr-5" aria-label="contact page">
             Contact Me
           </nuxt-link>
         </div>

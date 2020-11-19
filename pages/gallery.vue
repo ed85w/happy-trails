@@ -9,7 +9,7 @@
               "Zoe is fab with Mylo and he loves his walks and adventures with her. I can't recommend her enough."
             </div>
             <div class="testimonial">
-              Kerri, Mylo's owner
+              Kerri
             </div>
           </div>
         </div>
@@ -20,18 +20,18 @@
               "I would highly recommend Zoe to anyone, she is easy going and would help anyone."
             </div>
             <div class="testimonial">
-              Chez, xxxxx owner
+              Chez
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
           <div class="polaroid polaroid3">
-            <img src="~static/img/dog-3.jpeg" alt="zoe from happy trails pet services with 2 dogs">
+            <img src="~static/img/dog-3.jpeg" alt="willow the dog with a birthday hat on">
             <div class="caption font-cursive">
               "Our pooch loves Zoe!!! She is so friendly and approachable. I would highly recommend Happy Trails Pet Services."
             </div>
             <div class="testimonial">
-              Carly, xxxxx owner
+              Carly
             </div>
           </div>
         </div>
@@ -39,32 +39,32 @@
           <div class="polaroid polaroid4">
             <img src="~static/img/dog-4.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
-              "Zoe looks after our dog and goes above and beyond taking care of her. She also pet sits our cats. I can't recommend her enough."
+              "Zoe treats Sid like her own, she has so much love for him. We are very spoilt having Zoe on hand to help look after our Sid."
             </div>
             <div class="testimonial">
-              Jordan, Lyla's owner
+              Holly
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
           <div class="polaroid polaroid5">
-            <img src="~static/img/dog-5.png" alt="zoe from happy trails pet services with 2 dogs">
+            <img src="~static/img/dog-5.png" alt="a satisfied happy trails pet services customer!">
             <div class="caption font-cursive">
               "Cannot recommend Happy Trails enough. Zoe is such a kind, caring lady. Will most definitely be using her services again."
             </div>
             <div class="testimonial">
-              Michelle, Maverick's owner
+              Michelle
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
           <div id="polaroid6" class="polaroid polaroid6">
-            <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services with 2 dogs">
+            <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services cuddling a furry friend">
             <div class="caption font-cursive">
-              "As soon as Willow hears Zoe arrive she goes crazy!! She loves her walks with Zoe and other dog friends."
+              "Zoe looks after our dog and goes above and beyond taking care of her. She also pet sits our cats. I can't recommend her enough."
             </div>
             <div class="testimonial">
-              Claire, Willow's owner
+              Jordan
             </div>
           </div>
         </div>
@@ -117,8 +117,13 @@ export default {
     &:hover {
         transform: rotate(0);
         transform: scale(1.3);
-        z-index: 10 !important;
+        z-index: 100 !important;
     }
+
+    img {
+      z-index: 11;
+    }
+
   }
 
   .polaroid1 {

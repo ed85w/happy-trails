@@ -44,40 +44,21 @@
               </li>
               <li>
                 <h3 class="font-cursive">
-                  Dog Sitting in Owners Home Per Day
+                  Dog Sitting in Owners Home
                 </h3>
                 <table>
                   <tbody>
                     <tr>
-                      <td>per day per dog</td>
+                      <td>half day, prices from</td>
+                      <td>£18</td>
+                    </tr>
+                    <tr>
+                      <td>full day, prices from</td>
                       <td>£35</td>
                     </tr>
                     <tr>
-                      <td>additional dog</td>
-                      <td>£17</td>
-                    </tr>
-                    <tr>
-                      <td>duration varies</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </li>
-              <li>
-                <h3 class="font-cursive">
-                  Dog Sitting per day and night
-                </h3>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>per dog</td>
+                      <td>day and night, prices from</td>
                       <td>£45</td>
-                    </tr>
-                    <tr>
-                      <td>additional dog</td>
-                      <td>£22</td>
-                    </tr>
-                    <tr>
-                      <td>duration varies</td>
                     </tr>
                   </tbody>
                 </table>
@@ -93,12 +74,11 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td>30 minute visit (1 cat)</td>
+                      <td>per cat</td>
                       <td>£7.50</td>
                     </tr>
                     <tr>
-                      <td>30 minutes</td>
-                      <td>£6</td>
+                      <td>(30 minute visit)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -110,8 +90,11 @@
                 <table>
                   <tbody>
                     <tr>
-                      <td>30 minute visit (1 cat)</td>
+                      <td>starting price</td>
                       <td>£6</td>
+                    </tr>
+                    <tr>
+                      <td>(duration varies)</td>
                     </tr>
                   </tbody>
                 </table>
@@ -123,7 +106,7 @@
             <p class="pb-3">
               We tailor the care of your pet to your needs. A free in home consultation will take place prior to your service so you can meet us and we can meet you! How exciting, why not get in contact to see how we can help you and your furry friends?
             </p>
-            <nuxt-link to="/contact" class="btn btn-primary pl-5 pr-5">
+            <nuxt-link to="/contact" class="btn btn-primary pl-5 pr-5" aria-label="contact page">
               Contact Me
             </nuxt-link>
           </div>
