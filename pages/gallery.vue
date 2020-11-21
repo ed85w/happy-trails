@@ -112,16 +112,10 @@ export default {
     background: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     transition: 0.5s ease;
-    z-index: 5;
 
     &:hover {
         transform: rotate(0);
         transform: scale(1.3);
-        z-index: 100 !important;
-    }
-
-    img {
-      z-index: 11;
     }
 
   }

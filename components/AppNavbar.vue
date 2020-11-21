@@ -81,7 +81,7 @@ export default {
   background: white;
   border-bottom: 5px solid $site-blue;
   transition: 1s ease-in-out;
-  z-index: 9999;
+  z-index: 5;
 }
 
 .nav-logo-img {
@@ -94,7 +94,6 @@ export default {
     position: absolute;
     top: -100vh;
     height: 0;
-    z-index: 500;
     background: white;
     transition: .5s cubic-bezier(0.52, 0.16, 0.24, 1);
     overflow: hidden;
@@ -132,7 +131,7 @@ export default {
   position: absolute;
   height: 60px;
   width: 60px;
-  z-index: 501;
+  // z-index: 501;
   top: 7px;
   right: 7px;
   border: none;
@@ -147,7 +146,6 @@ export default {
       width: 35px;
       height: 4px;
       margin: 7px auto;
-      // border-radius: 2px;
       background: $site-blue;
       transition: ease 0.3s;
   }
