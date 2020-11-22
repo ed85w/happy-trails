@@ -2,7 +2,8 @@
   <section class="gallery">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-left" data-aos-duration="1200">
+        <!-- <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-left" data-aos-duration="1200"> -->
+        <div class="col-12 col-md-6 gallery-top-row">
           <div class="polaroid polaroid1">
             <img src="~static/img/dog-1.jpeg" alt="zoe from happy trails pet services with mylo the dog">
             <div class="caption font-cursive">
@@ -13,7 +14,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-right" data-aos-duration="1200">
+        <!-- <div class="col-12 col-md-6 gallery-top-row" data-aos="flip-right" data-aos-duration="1200"> -->
+        <div class="col-12 col-md-6 gallery-top-row">
           <div class="polaroid polaroid2">
             <img src="~static/img/dog-2.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -24,20 +26,20 @@
             </div>
           </div>
         </div>
+        <!-- <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200"> -->
         <div class="col-12 col-md-6">
-          <div class="polaroid-holder" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
-            <div class="polaroid polaroid3">
-              <img src="~static/img/dog-3.jpeg" alt="willow the dog with a birthday hat on">
-              <div class="caption font-cursive">
-                "Our pooch loves Zoe!!! She is so friendly and approachable. I would highly recommend Happy Trails Pet Services."
-              </div>
-              <div class="testimonial">
-                Carly
-              </div>
+          <div class="polaroid polaroid3">
+            <img src="~static/img/dog-3.jpeg" alt="willow the dog with a birthday hat on">
+            <div class="caption font-cursive">
+              "Our pooch loves Zoe!!! She is so friendly and approachable. I would highly recommend Happy Trails Pet Services."
+            </div>
+            <div class="testimonial">
+              Carly
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
+        <!-- <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200"> -->
+        <div class="col-12 col-md-6" data-aos="fade-up">
           <div class="polaroid polaroid4">
             <img src="~static/img/dog-4.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -48,7 +50,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200">
+        <!-- <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200"> -->
+        <div class="col-12 col-md-6">
           <div class="polaroid polaroid5">
             <img src="~static/img/dog-5.png" alt="a satisfied happy trails pet services customer!">
             <div class="caption font-cursive">
@@ -59,7 +62,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
+        <!-- <div class="col-12 col-md-6" data-aos="flip-right" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200"> -->
+        <div class="col-12 col-md-6">
           <div id="polaroid6" class="polaroid polaroid6">
             <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services cuddling a furry friend">
             <div class="caption font-cursive">
@@ -149,8 +153,8 @@ export default {
   .polaroid > img{
       width: 100%;
       max-width: 100%;
-      height: auto;
-      z-index: 500 !important;
+      height: 100%;
+      z-index: 1 !important;
   }
 
   .caption {
