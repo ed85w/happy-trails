@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6" data-aos="flip-up" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
+        <div class="col-12 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" data-aos-offset="200">
           <div class="polaroid polaroid4">
             <img src="~static/img/dog-4.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">

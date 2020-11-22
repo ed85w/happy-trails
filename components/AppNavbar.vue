@@ -81,7 +81,7 @@ export default {
   background: white;
   border-bottom: 5px solid $site-blue;
   transition: 1s ease-in-out;
-  z-index: 5;
+  z-index: 9999;
 }
 
 .nav-logo-img {
