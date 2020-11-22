@@ -26,7 +26,7 @@
     </section>
     <section id="about" class="container-fluid about-section">
       <div class="row">
-        <div class="col-12 col-md-6 order-md-2 pt-md-5" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+        <div class="col-12 col-md-6 order-md-2 pt-md-5" data-aos="flip-up">
           <div class="polaroid">
             <img src="~static/img/happy-trails-zoe.jpeg" alt="happy trails pet services with a furry friend!">
             <div class="caption font-cursive">
