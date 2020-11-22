@@ -147,8 +147,10 @@ export default {
   }
 
   .polaroid > img{
+      width: 100%;
       max-width: 100%;
       height: auto;
+      z-index: 500 !important;
   }
 
   .caption {
