@@ -27,7 +27,7 @@
           </div>
         </div>
         <!-- <div class="col-12 col-md-6" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200"> -->
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" data-aos="flip-left">
           <div class="polaroid polaroid3">
             <img src="~static/img/dog-3.jpeg" alt="willow the dog with a birthday hat on">
             <div class="caption font-cursive">
