@@ -93,6 +93,7 @@ export default {
 .nav-links {
     position: absolute;
     top: -100vh;
+    left: 0;
     height: 0;
     background: white;
     transition: .5s cubic-bezier(0.52, 0.16, 0.24, 1);

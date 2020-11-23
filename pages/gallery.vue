@@ -2,7 +2,7 @@
   <section class="gallery">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 pt-4 pb-4 pt-md-3 gallery-top-row" data-aos="flip-up">
+        <div class="col-12 col-md-6 pt-5 pb-5 pt-md-3 gallery-top-row" data-aos="flip-up">
           <div class="polaroid polaroid1">
             <img src="~static/img/dog-1.jpeg" alt="zoe from happy trails pet services with mylo the dog">
             <div class="caption font-cursive">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pt-4 pb-4 pt-md-3 gallery-top-row" data-aos="flip-up">
+        <div class="col-12 col-md-6 pt-5 pb-5 pt-md-3 gallery-top-row" data-aos="flip-up">
           <div class="polaroid polaroid2">
             <img src="~static/img/dog-2.jpeg" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -24,7 +24,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6  pt-4 pb-4" data-aos="flip-up">
+        <div class="col-12 col-md-6  pt-5 pb-5" data-aos="flip-up">
           <div class="polaroid polaroid3">
             <img src="~static/img/dog-3.jpeg" alt="willow the dog with a birthday hat on">
             <div class="caption font-cursive">
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pt-4 pb-4" data-aos="flip-up">
+        <div class="col-12 col-md-6 pt-5 pb-5" data-aos="flip-up">
           <div class="polaroid polaroid4">
             <img src="~static/img/dog-4.png" alt="zoe from happy trails pet services with 2 dogs">
             <div class="caption font-cursive">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pt-4 pb-4" data-aos="flip-up">
+        <div class="col-12 col-md-6 pt-5 pb-5" data-aos="flip-up">
           <div class="polaroid polaroid5">
             <img src="~static/img/dog-5.png" alt="a satisfied happy trails pet services customer!">
             <div class="caption font-cursive">
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 pt-4 pb-4" data-aos="flip-up">
+        <div class="col-12 col-md-6 pt-5 pb-5" data-aos="flip-up">
           <div id="polaroid6" class="polaroid polaroid6">
             <img src="~static/img/dog-6.jpeg" alt="zoe from happy trails pet services cuddling a furry friend">
             <div class="caption font-cursive">
